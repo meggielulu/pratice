@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BattleGrounds</title>
+    <link rel="stylesheet" href="BattleGrounds.css">
+</head>
+<body>
+    <div class="content">
+    <!-- 导航栏 -->
+     <div class="wrapper">
+        <div class="top">
+            <div class="logo">
+               
+            </div>
+            <div class="topNav"> 
+                <ul class="nav">
+                    <li><a href="#">官网首页</a></li>
+                    <li><a hrefd="#">绑定查询</a></li>
+                    <li><a hrefd="#" class="hot">国服预约</a></li>
+                    <li><a hrefd="#" class="hot">老兵绑定</a></li>
+                    <li><a hrefd="#">游戏角色</a></li>
+                    <li><a hrefd="#">社区APP</a></li>
+                    <li><a hrefd="#">网吧认证</a></li>
+                </ul>
+            </div>
+            <div class="btn">
+                <div class="btn"><a href="#">进入官网</a></div>
+            </div>
+        </div>  
+     </div>
+     <div class="leftNav">
+            <ul class="nav2">
+                <li class="hot" onclick="changeTo(0)">N</li>
+                <li  onclick="changeTo(1)">NE</li>
+                <li  onclick="changeTo(2)">E</li>
+                <li  onclick="changeTo(3)">SE</li>
+            </ul>
+        </div>
+     <!-- 视频部分 -->
+     <div class="vContainer">
+         <div class="v1_box box">
+             <video muted src="./img/1022_5dad5415ceb249339a0bf9662bfd414e.f0.mp4" autoplay></video>
+             <p class="bg firstbg"></p>
+         </div>
+         <div class="v2_box box">
+             <video  muted src="./img/1022_e48ffd8a30074766bfae4ba50cbbbce5.f0.mp4" preload="auto"></video>
+            <p class="bg secondbg1"></p>
+            <!-- <p class="bg secondbg2">连呼吸都必须小心翼翼，前所未有的紧张刺激体验</p> -->
+            <!-- <p class="bg words2">连呼吸都必须小心翼翼，前所未有的紧张刺激体验</p> -->
+         </div>
+         <div class="v3_box box">
+             <video muted src="./img/1022_18cc6cba2ebb4635aa06d2020134d1be.f0.mp4" perload="auto"></video>
+            <p class="bg thirdbg1"></p>
+            <!-- <p class="bg thirdbg2"></p> -->
+         </div>
+         <!-- <div class="weather">
+             <img src="./img/img_weather1.jpg" alt="雨天"><img src="./img/img_weather2.jpg" alt="晴天"><img src="./img/img_weather3.jpg" alt="雾天">
+             <p></p>
+         </div> -->
+         <div class="v4_box box">
+             <video muted src="./img/1022_e69987bb8934400eb786a159f45985ce.f0.mp4" preload="auto"></video>
+             <p classs="bg fourthbg1"></p>
+             <!-- <p classs="bg fourthbg2"></p> -->
+         </div>
+         <!-- <div class="map"></div> -->
+     </div>
+    </div>
+    <script src="BattleGrounds.js"></script>
+</body>
+</html>
